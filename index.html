@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main class="content-container">
+        <section class="contact-left">
+            <div class="contact-left-title">
+                <h2 id="mntxt">Get in touch with us</h2>
+                <hr>
+            </div>
+
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                <input type="hidden" name="access_key" value="insert_your_web3forms_api">
+
+
+                <label for="name" class="visually-hidden">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="contact-inputs" required>
+
+
+                <label for="email" class="visually-hidden">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="contact-inputs" required>
+
+
+                <label for="message" class="visually-hidden">Message</label>
+                <textarea name="message" id="message" placeholder="Say something" class="contact-inputs" required></textarea>
+
+                <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+
+
+                <input type="hidden" id="formStartTime" name="formStartTime">
+
+
+                <div id="formMessage"></div>
+
+
+                <button type="submit">
+                    Submit <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </form>
+        </section>
+
+        <section class="content-right">
+            <img src="assets/img.png" alt="Contact Image">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
