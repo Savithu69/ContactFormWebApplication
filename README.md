@@ -2,7 +2,7 @@ Contact Form
 ___________________________________
 Overview
 
-•This project implements a straightforward contact form that allows users to send messages directly to a designated  email address. It utilizes HTML, CSS, and JavaScript to create an intuitive user interface and        integrates with the Web3Forms API for seamless message submission.
+•The contact form here is a basic one, through which the user can send messages directly to the email of the owner. It is created using HTML, CSS, and JavaScript to provide an interactive user interface and integrated with Web3Forms API for seamless message submission.
 __________________________________________________________________
 Features
 
