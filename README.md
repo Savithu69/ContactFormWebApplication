@@ -18,3 +18,7 @@ Technologies Used
 •JavaScript
 •Font Awesome (Free version)
 •Web3Forms API
+___________________________________________________________________
+btw you need to get your own web3forms access code for this to work.
+you can insert it at the line 19 in the html code
+get a web3forms access code of your own from here. https://web3forms.com/#start
